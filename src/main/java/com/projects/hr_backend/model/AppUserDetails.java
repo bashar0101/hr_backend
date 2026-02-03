@@ -8,7 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 public class AppUserDetails implements UserDetails {
-
+    // we can directly 
     private final AppUser user;
 
     public AppUserDetails(AppUser user) {
